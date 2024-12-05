@@ -11,13 +11,13 @@
             margin: 0;
             padding: 0;
             background-color: #1a1a1a;
-            color: #ffffff; /* Default text color is white */
+            color: #ffffff; 
         }
         header {
             text-align: center;
             padding: 40px;
-            background-color: #000000; /* Set header background to black */
-            color: #d14618; /* Header text color to orange */
+            background-color: #000000;
+            color: #d14618; 
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
         }
         header h1 {
@@ -55,7 +55,7 @@
         .product-details h2 {
             font-size: 36px;
             margin: 20px 0;
-            color: #FFFFFF; /* White color for key information */
+            color: #FFFFFF; 
             text-transform: uppercase;
             letter-spacing: 1px;
         }
@@ -63,19 +63,19 @@
             font-size: 18px;
             line-height: 1.7;
             margin: 15px 0;
-            color: #FFFFFF; /* White color for key information */
+            color: #FFFFFF; 
         }
         .price {
             font-size: 32px;
             font-weight: bold;
-            color: #FFFFFF; /* White color for price */
+            color: #FFFFFF; 
             margin: 20px 0;
             text-transform: uppercase;
         }
         .benefit {
             font-size: 18px;
             font-weight: 400;
-            color: #FFFFFF; /* White color for benefit text */
+            color: #FFFFFF; 
             margin-bottom: 20px;
             padding-left: 30px;
             position: relative;
@@ -89,6 +89,22 @@
         .cta {
             text-align: center;
             margin-top: 30px;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #d14618; 
+            color: #ffffff; 
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .cta a:hover {
+            background-color: #e75d2b; 
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -122,8 +138,12 @@
             <p><strong>500GB Storage:</strong> Store your favorite games with lightning-fast access. The 500GB SSD ensures no lag and smooth performance when switching between your games, keeping your gameplay uninterrupted.</p>
         </div>
         <div class="price">RM2993.90</div>
-    </div>
 
+        <!-- Call-to-Action Button -->
+        <div class="cta">
+            <a href="https://shopee.com.my/product/27398815/24064814304">Buy Now</a>
+        </div>
+    </div>
 </div>
 
 </body>
